@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Layout from './layout/Layout';
 import routes from './routes';
 function App() {
@@ -6,9 +6,12 @@ function App() {
     <BrowserRouter>
 
       <Layout>
-        {routes.map(route=>{
-          return  <Route {...route}  />
-        })}
+        <Switch>
+          {routes.map(route => {
+            return <Route {...route} />
+          })}
+        </Switch>
+
       </Layout>
 
     </BrowserRouter>
