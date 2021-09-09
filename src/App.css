@@ -1,3 +1,10 @@
 .activeLink{
     color: blueviolet;
 }
+footer{
+    background-color: #333;
+    color: white;
+}
+header{
+    background-color: lightcyan;
+}
