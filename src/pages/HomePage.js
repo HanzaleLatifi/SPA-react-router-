@@ -1,10 +1,12 @@
 import React from 'react'
 
-function HomePage() {
+function HomePage(props) {
+    console.log(props)
+    
     return (
-        <div>
-            Home Page
-        </div>
+        <>
+            <p>Home Page</p>
+        </>
     )
 }
 
