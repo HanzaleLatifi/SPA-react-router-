@@ -1,9 +1,14 @@
 .activeLink{
-    color: blueviolet;
+    color: rgb(214, 0, 214);
 }
 footer{
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0 ;
     background-color: #333;
     color: white;
+    width: 100%;
+    text-align: center;
 }
 header{
     background-color: lightcyan;

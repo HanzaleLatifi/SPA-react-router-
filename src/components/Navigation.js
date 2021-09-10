@@ -5,7 +5,8 @@ function Navigation(props) {
     const items=[
         {name:"Home" , to:"/" , exact:true} ,
         {name:"Aboutus" , to:"/about-us"},
-        {name:"Profile" , to:"/profile"}
+        {name:"Profile" , to:"/profile"},
+        {name:"Blog" , to:"/blog"}
         
     ]
 
@@ -17,7 +18,8 @@ function Navigation(props) {
                 <ul>
                     {items.map(item=>{
                         return(
-                            <li>
+                            <li key={item.to}>
+                                
                                 <NavLink to={item.to} activeClassName="activeLink" exact={item.exact}>
                                     {item.name}
                                 </NavLink>

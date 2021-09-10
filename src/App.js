@@ -11,7 +11,6 @@ function App() {
             return <Route {...route} />
           })}
         </Switch>
-
       </Layout>
 
     </BrowserRouter>
