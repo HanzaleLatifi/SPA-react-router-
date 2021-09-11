@@ -16,7 +16,7 @@ function BlogPage(props) {
                         return(
                             <li key={item.to}>
                                 
-                                <Link to={item.to} >
+                                <Link to={{pathname:item.to , search:"name=sort"} } >
                                     {item.name}
                                 </Link>
                             </li>

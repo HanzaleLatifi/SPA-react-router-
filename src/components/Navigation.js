@@ -12,7 +12,6 @@ function Navigation(props) {
     ]
 
     
-    console.log(props)
     return (
         
             <nav>

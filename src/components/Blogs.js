@@ -1,8 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import queryString from 'query-string'
 
 function Blogs(props) {
    const id = props.match.params.id ;
+   const parsed = queryString.parse(props.location.search);
+   console.log(parsed)
+
+   
 
     return (
         <div>
