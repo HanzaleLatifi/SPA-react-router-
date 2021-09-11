@@ -13,3 +13,7 @@ footer{
 header{
     background-color: lightcyan;
 }
+.sideBar{
+    background-color: pink;
+    pad: 20px;
+}

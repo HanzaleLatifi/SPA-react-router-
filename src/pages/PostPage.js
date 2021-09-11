@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom' 
 
 const items=[
     {name:"post1" , to:"/post/1" } ,
